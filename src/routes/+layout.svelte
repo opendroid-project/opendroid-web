@@ -29,15 +29,13 @@
 		nav a {
 				padding: 5px;
 				border-radius: var(--border-radius);
-				border: 2px solid darkgoldenrod;
-				margin-left: 2px;
-				margin-right: 2px;
+				margin: 3px;
 				text-decoration: none;
         transition-duration: var(--transition-duration);
-
+        border-bottom: 3px solid transparent;
     }
 		nav a:hover{
-				transform: scale(1.1);
+				border-bottom: 3px solid darkgoldenrod;
 				transition-duration: var(--transition-duration);
 		}
 		footer {
