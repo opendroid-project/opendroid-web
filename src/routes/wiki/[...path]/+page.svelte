@@ -8,6 +8,8 @@
 	import { copyText } from 'svelte-copy';
 	import { browser } from '$app/environment';
 	import { toast } from '@zerodevx/svelte-toast'
+	import { onMount } from 'svelte';
+	import AnchorJS from 'anchor-js';
 
 	if (browser) {
 		document.addEventListener("click", copyCodeBlock);
@@ -18,6 +20,13 @@
 			toast.push("Copied!")
 		}
 	}
+
+	onMount(() => {
+		const anchors = new AnchorJS();
+		anchors.add();
+		anchors.add('h1');
+
+	})
 </script>
 
 <style>
