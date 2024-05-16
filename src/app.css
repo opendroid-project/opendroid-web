@@ -1,5 +1,7 @@
 /* Monospace font */
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+/* Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     padding: 0;
@@ -12,13 +14,14 @@ body {
 code {
     background-color: rgba(1, 1, 1, 0.3);
     display: inline-block;
-    padding: 0 5px;
+    padding: 10px;
     border-radius: var(--border-radius);
     font-family: "Courier Prime", monospace;
 }
 * {
-    background: #333;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: #111;
+    color: ivory;
     --border-radius: 3px;
     --transition-duration: 250ms;
     overflow-x: hidden;
