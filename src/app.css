@@ -9,6 +9,12 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background: #111;
+    color: ivory;
+    --border-radius: 3px;
+    --transition-duration: 250ms;
+    overflow-x: hidden;
 }
 
 code {
@@ -18,14 +24,9 @@ code {
     border-radius: var(--border-radius);
     font-family: "Courier Prime", monospace;
 }
-* {
-    font-family: 'Montserrat', sans-serif;
-    background: #111;
-    color: ivory;
-    --border-radius: 3px;
-    --transition-duration: 250ms;
-    overflow-x: hidden;
-}
 ul{
     list-style-position: inside;
+}
+a{
+    color: ivory;
 }
