@@ -25,7 +25,7 @@
 		const anchors = new AnchorJS();
 		anchors.add();
 		anchors.add('h1');
-
+		toast.push("Click on code blocks to copy.")
 	})
 </script>
 
