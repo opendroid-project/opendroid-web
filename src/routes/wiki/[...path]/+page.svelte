@@ -12,8 +12,9 @@
 		document.addEventListener("click", copyCodeBlock);
 	}
 	async function copyCodeBlock(event: Event) {
-		console.log(event.target);
-		if ( event.target != null) copyText(event.target.innerText);
+		if (event.target.nodeName == "CODE"){
+			copyText(event.target.innerText);
+		}
 	}
 </script>
 
