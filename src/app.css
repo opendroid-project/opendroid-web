@@ -25,7 +25,7 @@ code {
     font-family: "Courier Prime", monospace;
     vertical-align: middle;
 }
-ul{
+ul, ol{
     list-style-position: inside;
 }
 *{
