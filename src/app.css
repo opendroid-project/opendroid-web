@@ -1,5 +1,5 @@
 /* Monospace font */
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 /* Sans font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -27,8 +27,9 @@ code {
     display: inline-block;
     padding: 10px;
     border-radius: var(--border-radius);
-    font-family: "Courier Prime", monospace;
+    font-family: "Noto Sans Mono", monospace;
     vertical-align: middle;
+    color: #F7F7F7;
 }
 ul, ol{
     list-style-position: inside;
