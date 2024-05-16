@@ -1,4 +1,15 @@
+/* Monospace font */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dancing+Script:wght@400..700&display=swap');
+
 body {
     padding: 0;
     margin: 0;
+}
+
+code {
+    background-color: rgba(1, 1, 1, 0.3);
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-family: "Courier Prime", monospace;
 }
