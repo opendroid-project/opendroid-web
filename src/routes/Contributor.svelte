@@ -20,5 +20,10 @@
 	.profile_picture_container img {
 			width: 100%;
 			border-radius: 10px;
+      transition-duration: 250ms;
+  }
+	.profile_picture_container img:hover{
+			transform:scale(1.1);
+			transition-duration: 250ms;
 	}
 </style>
