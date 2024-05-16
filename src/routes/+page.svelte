@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Contributor from './Contributor.svelte';
+	import Contributor from '$lib/Contributor.svelte';
 </script>
 <div class="flex flex-center flex-col">
 <h1>Welcome to OpenDroid</h1>
