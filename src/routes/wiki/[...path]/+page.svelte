@@ -5,6 +5,16 @@
 
 	export let data: PageData;
 
+	import { copyText } from 'svelte-copy';
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		document.addEventListener("click", copyCodeBlock);
+	}
+	async function copyCodeBlock(event: Event) {
+		console.log(event.target);
+		if ( event.target != null) copyText(event.target.innerText);
+	}
 </script>
 
 <style>

@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-copy": "^1.4.2",
 		"svelte-markdown": "^0.4.1"
 	}
 }
