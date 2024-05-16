@@ -10,6 +10,13 @@ code {
     background-color: rgba(1, 1, 1, 0.3);
     display: inline-block;
     padding: 0 5px;
-    border-radius: 3px;
+    border-radius: var(--border-radius);
     font-family: "Courier Prime", monospace;
+}
+* {
+    background: #333;
+    color: white;
+    --border-radius: 3px;
+    --transition-duration: 250ms;
+    overflow-x: hidden;
 }

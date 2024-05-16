@@ -19,11 +19,11 @@
   }
 	.profile_picture_container img {
 			width: 100%;
-			border-radius: 10px;
-      transition-duration: 250ms;
+			border-radius: var(--border-radius);
+      transition-duration: var(--transition-duration);
   }
 	.profile_picture_container img:hover{
 			transform:scale(1.1);
-			transition-duration: 250ms;
+			transition-duration: var(--transition-duration);
 	}
 </style>
