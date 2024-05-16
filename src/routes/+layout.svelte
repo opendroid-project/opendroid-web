@@ -6,6 +6,8 @@
 	<a href="/contact">Contact</a>
 	<a href="/wiki">Wiki</a>
 	<a href="/">Home</a>
+	<div id="nostyle"></div>
+	<a href="/" id="odroidlogo">OpenDroid</a>
 </nav>
 
 <style>
@@ -15,6 +17,15 @@
 				display: flex;
 				flex-direction: row-reverse;
     }
+		#odroidlogo{
+				float: left;
+				border: none;
+				font-size: 1em;
+		}
+		#nostyle {
+				flex-grow: 100;
+				border: none;
+		}
 		nav a {
 				padding: 5px;
 				border-radius: var(--border-radius);
