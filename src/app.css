@@ -17,6 +17,11 @@ body {
     line-height: 1.5;
 }
 
+html{
+    scrollbar-color: #646464 #333333;
+    scrollbar-width: thin;
+}
+
 code {
     background-color: #333;
     display: inline-block;
