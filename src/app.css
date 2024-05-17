@@ -41,9 +41,6 @@ ul,
 ol {
 	list-style-position: inside;
 }
-* {
-	overflow-x: hidden;
-}
 a {
 	color: ivory;
 }
