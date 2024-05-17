@@ -33,8 +33,20 @@
 	#markdown_container{
 			padding: 10px;
 	}
+	@media only screen and (min-width: 910px){
+      #readability_container{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+			#markdown_container{
+          width: 60vw;
+      }
+	}
 </style>
 
+<div id="readability_container">
 <div id="markdown_container">
 <SvelteMarkdown source={data.markdown} />
+</div>
 </div>

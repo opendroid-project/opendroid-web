@@ -30,6 +30,12 @@ code {
     font-family: "Noto Sans Mono", monospace;
     vertical-align: middle;
     color: #F7F7F7;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #646464 #333333;
+}
+pre code{
+    display: block;
 }
 ul, ol{
     list-style-position: inside;
