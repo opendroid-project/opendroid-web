@@ -36,6 +36,7 @@
 		"@types/anchor-js": "^5.0.3",
 		"anchor-js": "^5.0.0",
 		"svelte-copy": "^1.4.2",
-		"svelte-markdown": "^0.4.1"
+		"svelte-markdown": "^0.4.1",
+		"svelte-toc": "^0.5.8"
 	}
 }
