@@ -13,6 +13,10 @@
 			profile_picture="https://avatars.githubusercontent.com/u/84176052?v=4"
 		/>
 		<Contributor
+			name="LinuxGuy312"
+			profile_picture="https://avatars.githubusercontent.com/u/101087324?v=4"
+		/>
+		<Contributor
 			name="PugzAreCute"
 			profile_picture="https://avatars.githubusercontent.com/u/62641095?v=4"
 		/>
@@ -32,5 +36,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+				flex-wrap: wrap;
     }
 </style>
