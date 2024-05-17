@@ -6,6 +6,6 @@ export async function load() {
 	const markdown = await markdownFetch.text();
 
 	return {
-		markdown: markdown.toString(),
-	}
+		markdown: markdown.toString()
+	};
 }

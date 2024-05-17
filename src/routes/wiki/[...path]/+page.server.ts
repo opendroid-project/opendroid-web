@@ -1,4 +1,4 @@
-export async function load({ params}) {
+export async function load({ params }) {
 	const wiki_doc = `https://raw.githubusercontent.com/opendroid-project/docs/master/wiki/${params.path}.md`;
 
 	const markdownFetch = await fetch(wiki_doc);
@@ -6,6 +6,6 @@ export async function load({ params}) {
 	const markdown = await markdownFetch.text();
 
 	return {
-		markdown: markdown.toString(),
-	}
+		markdown: markdown.toString()
+	};
 }
