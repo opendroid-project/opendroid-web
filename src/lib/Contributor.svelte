@@ -11,14 +11,13 @@
 <style>
 	.profile_picture_container {
 		display: flex;
-		width: 10%;
 		flex-direction: column;
 		align-items: center;
 		justify-items: center;
-		gap: 1px;
+			margin: 20px;
 	}
 	.profile_picture_container img {
-		width: 100%;
+		width: 50px;
 		border-radius: var(--border-radius);
 		transition-duration: var(--transition-duration);
 	}

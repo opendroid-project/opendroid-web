@@ -2,12 +2,12 @@
 	import Contributor from '$lib/Contributor.svelte';
 </script>
 
-<div class="flex flex-center flex-col">
+<div id="main">
 	<h1>Welcome to OpenDroid</h1>
 	<p>Opendroid is a project aiming to make comprehensive android documentation.</p>
-	<h2>Contributors to OpenDroid:</h2>
+	<h2>Contributors:</h2>
 
-	<div class="flex flex-row flex-contributors">
+	<div id="contributors">
 		<Contributor
 			name="SoundDrill"
 			profile_picture="https://avatars.githubusercontent.com/u/84176052?v=4"
@@ -20,18 +20,17 @@
 </div>
 
 <style>
-	.flex {
-		display: flex;
-		gap: 1%;
-	}
-	.flex-row {
-		flex-direction: row;
-	}
-	.flex-center {
-		justify-content: center;
-		align-items: center;
-	}
-	.flex-col {
-		flex-direction: column;
-	}
+		#main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+				text-align: center;
+    }
+		#contributors{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 </style>
