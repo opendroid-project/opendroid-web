@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	const errorMessage = $page.error ? $page.error.message : 'Unkniown';
+	const errorMessage = $page.error ? $page.error.message : 'Unknown Error';
 </script>
 
 <div id="container">
