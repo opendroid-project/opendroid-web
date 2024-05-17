@@ -31,7 +31,7 @@
 
 <style>
 	nav {
-		border-bottom: 2px solid ivory;
+		border-bottom: 2px solid var(--text-color);
 		padding: 10px;
 		display: flex;
 		flex-direction: row-reverse;
@@ -60,6 +60,6 @@
 	footer {
 		margin-top: auto;
 		text-align: center;
-		border-top: 2px solid ivory;
+		border-top: 2px solid var(--text-color);
 	}
 </style>

@@ -35,7 +35,7 @@
 		<SvelteMarkdown source={data.markdown} />
 	</div>
 	<Toc
-		--toc-mobile-bg="#222"
+		--toc-mobile-bg="var(--lighter-color)"
 	/>
 </div>
 

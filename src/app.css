@@ -9,30 +9,28 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	background: #111;
-	color: ivory;
-	--border-radius: 3px;
-	--transition-duration: 250ms;
+	font-family: var(--main-font), sans-serif;
+	background: var(--bg-color);
+	color: var(--text-color);
 	line-height: 1.5;
 }
 
 html {
-	scrollbar-color: #646464 #333333;
-	scrollbar-width: thin;
+	scrollbar-color: var(--scrollbar-color);
+	scrollbar-width: var(--scrollbar-width);
 }
 
 code {
-	background-color: #333;
+	background-color: var(--lightest-color);
 	display: inline-block;
 	padding: 10px;
 	border-radius: var(--border-radius);
-	font-family: 'Noto Sans Mono', monospace;
+	font-family: var(--mono-font), monospace;
 	vertical-align: middle;
 	color: #f7f7f7;
 	overflow-x: auto;
-	scrollbar-width: thin;
-	scrollbar-color: #646464 #333333;
+	scrollbar-width: var(--scrollbar-width);
+	scrollbar-color: var(--scrollbar-color);
 }
 pre code {
 	display: block;
@@ -42,8 +40,20 @@ ol {
 	list-style-position: inside;
 }
 a {
-	color: ivory;
+	color: var(--text-color);
 }
 :where(h1,h2,h3,h4,h5,h6) {
 	scroll-margin-top: 3vh;
+}
+:root{
+	--border-radius: 3px;
+	--transition-duration: 250ms;
+	--scrollbar-color: #646464 #333333;
+	--scrollbar-width: thin;
+	--text-color: ivory;
+	--mono-font: 'Noto Sans Mono';
+	--main-font: 'Montserrat';
+	--bg-color: #111;
+	--lighter-color: #222;
+	--lightest-color: #333;
 }
