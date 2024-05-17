@@ -14,7 +14,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-items: center;
-			margin: 20px;
+		margin: 20px;
 	}
 	.profile_picture_container img {
 		width: 50px;

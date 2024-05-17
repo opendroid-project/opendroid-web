@@ -10,7 +10,7 @@
 	import { toast } from '@zerodevx/svelte-toast';
 	import { onMount } from 'svelte';
 	import AnchorJS from 'anchor-js';
-	import Toc from 'svelte-toc'
+	import Toc from 'svelte-toc';
 
 	if (browser) {
 		document.addEventListener('click', copyCodeBlock);
@@ -34,9 +34,7 @@
 	<div id="markdown_container">
 		<SvelteMarkdown source={data.markdown} />
 	</div>
-	<Toc
-		--toc-mobile-bg="var(--lighter-color)"
-	/>
+	<Toc --toc-mobile-bg="var(--lighter-color)" />
 </div>
 
 <style>

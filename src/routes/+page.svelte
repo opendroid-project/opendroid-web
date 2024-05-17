@@ -24,18 +24,18 @@
 </div>
 
 <style>
-		#main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-				text-align: center;
-    }
-		#contributors{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-				flex-wrap: wrap;
-    }
+	#main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	#contributors {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 </style>
