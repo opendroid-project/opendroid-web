@@ -37,7 +37,7 @@
 
 <style>
 	#markdown_container {
-		padding: 10px;
+		padding: 20px;
 	}
 	@media only screen and (min-width: 910px) {
 		#readability_container {
