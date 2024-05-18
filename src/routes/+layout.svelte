@@ -5,16 +5,16 @@
 	import DesktopNavigation from '$lib/DesktopNavigation.svelte';
 	import { browser } from '$app/environment';
 	let minWidth = false;
-	if(browser){
-		minWidth = window.matchMedia("(min-width: 500px)").matches;
+	if (browser) {
+		minWidth = window.matchMedia('(min-width: 500px)').matches;
 	}
 </script>
 
 <SvelteToast />
 
 {#if minWidth}
-<DesktopNavigation />
-	{:else}
+	<DesktopNavigation />
+{:else}
 	<HamburgerNavBar />
 {/if}
 
