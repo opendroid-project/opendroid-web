@@ -22,7 +22,7 @@
 		hamburger.classList.add('rotate_hamburger');``
 		window.setTimeout(() => {
 			hamburger.classList.remove('rotate_hamburger');
-		}, 1000);
+		}, 750);
 
 		if (open) {
 			let dropdown = document.getElementById('nav_actual');
@@ -30,14 +30,14 @@
 			dropdown.classList.add('animate_dropdown');
 			window.setTimeout(() => {
 				dropdown.classList.remove('animate_dropdown');
-			}, 1000);
+			}, 750);
 		} else {
 			let dropdown = document.getElementById('nav_actual');
 			dropdown.style.top = 'calc(var(--my-height)*-1)';
 			dropdown.classList.add('animate_dropup');
 			window.setTimeout(() => {
 				dropdown.classList.remove('animate_dropup');
-			}, 1000);
+			}, 750);
 		}
 
 
@@ -74,7 +74,7 @@
         padding: 10px;
         z-index: 100;
         user-select: none;
-        animation-duration: 1s;
+        animation-duration: 750ms;
         position: relative;
         color: var(--text-color);
 
@@ -104,7 +104,7 @@
         display: flex;
         flex-direction: column;
         background-color: var(--lighter-color);
-        animation-duration: 1s;
+        animation-duration: 750ms;
         position: absolute;
         width: 100vw;
         margin: 0;
