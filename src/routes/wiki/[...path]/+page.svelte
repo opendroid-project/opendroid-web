@@ -34,7 +34,7 @@
 	<div id="markdown_container">
 		<SvelteMarkdown source={data.markdown} />
 	</div>
-	<Toc --toc-mobile-bg="var(--lighter-color)" />
+	<Toc --toc-mobile-bg="var(--lighter-color)" headingSelector=":is(h1,h2, h3, h4,h5,h6):not(.toc-exclude)"/>
 </div>
 
 <style>
