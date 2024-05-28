@@ -3,8 +3,8 @@
 </script>
 
 <div id="main">
-	<h1>Welcome to OpenDroid</h1>
-	<p>Opendroid is a project aiming to make comprehensive android documentation.</p>
+	<h1>Welcome to NIOS Students</h1>
+	<p>NIOS-Students is a project aiming to form a community of NIOS students.</p>
 	<h2>Contributors:</h2>
 
 	<div id="contributors">

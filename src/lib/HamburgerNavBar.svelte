@@ -45,7 +45,7 @@
 />
 
 <div id="navbar_container">
-	<p>OpenDroid</p>
+	<p>NIOS Students</p>
 	<div id="spacer"></div>
 	<button on:click={onClick()} type="button" id="hamburger_button">
 		<span class="material-symbols-outlined" id="hamburger">menu</span>
@@ -55,7 +55,7 @@
 <div id="nav_actual" style="--my-height: {nav_height}px">
 	<a href="/" class="nav_link">Home</a>
 	<a href="/wiki" class="nav_link">Wiki</a>
-	<a href="https://github.com/opendroid-project/docs" class="nav_link">Contribute</a>
+	<a href="https://github.com/nios-students/docs" class="nav_link">Contribute</a>
 	<a href="/contact" class="nav_link">Contact</a>
 </div>
 
