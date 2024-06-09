@@ -45,7 +45,7 @@
 />
 
 <div id="navbar_container">
-	<p>OpenDroid</p>
+	<p>NIOS Students</p>
 	<div id="spacer"></div>
 	<button on:click={onClick()} type="button" id="hamburger_button">
 		<span class="material-symbols-outlined" id="hamburger">menu</span>

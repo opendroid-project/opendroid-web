@@ -4,7 +4,7 @@
 	<a href="/wiki">Wiki</a>
 	<a href="/">Home</a>
 	<div id="nostyle"></div>
-	<a href="/" id="odroidlogo">OpenDroid</a>
+	<a href="/" id="odroidlogo">NIOS Students</a>
 </nav>
 
 <style>
