@@ -3,8 +3,8 @@
 </script>
 
 <div id="main">
-	<h1>Welcome to NIOS Students</h1>
-	<p>NIOS-Students is a project aiming to form a community of NIOS students.</p>
+	<h1>Welcome to OpenDroid</h1>
+	<p>Opendroid is a project aiming to make comprehensive android documentation.</p>
 	<h2>Contributors:</h2>
 
 	<div id="contributors">
@@ -13,16 +13,12 @@
 			profile_picture="https://avatars.githubusercontent.com/u/84176052?v=4"
 		/>
 		<Contributor
-			name="pingforhelp"
-			profile_picture="https://avatars.githubusercontent.com/u/171056689?v=4"
+			name="LinuxGuy312"
+			profile_picture="https://avatars.githubusercontent.com/u/101087324?v=4"
 		/>
 		<Contributor
 			name="PugzAreCute"
 			profile_picture="https://avatars.githubusercontent.com/u/62641095?v=4"
-		/>
-		<Contributor
-			name="Ur"
-			profile_picture="https://avatars.githubusercontent.com/u/172172944?v=4"
 		/>
 	</div>
 </div>
