@@ -1,6 +1,4 @@
 <script lang="ts">
-	import SvelteMarkdown from 'svelte-markdown';
-
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -10,6 +8,7 @@
 	import { toast } from '@zerodevx/svelte-toast';
 	import { onMount } from 'svelte';
 	import AnchorJS from 'anchor-js';
+	import WebRenderComponent from '$lib/WebRenderComponent.svelte';
 
 	if (browser) {
 		document.addEventListener('click', copyCodeBlock);
@@ -27,25 +26,4 @@
 		anchors.add('h1');
 	});
 </script>
-
-<div id="readability_container">
-	<div id="markdown_container">
-		<SvelteMarkdown source={data.markdown} />
-	</div>
-</div>
-
-<style>
-	#markdown_container {
-		padding: 10px;
-	}
-	@media only screen and (min-width: 910px) {
-		#readability_container {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-		}
-		#markdown_container {
-			width: 60vw;
-		}
-	}
-</style>
+<WebRenderComponent markdown="{data.markdown}" />
