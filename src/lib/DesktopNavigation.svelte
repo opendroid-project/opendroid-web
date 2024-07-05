@@ -1,5 +1,5 @@
 <nav>
-	<a href="/contact">Contact</a>
+	<a href="/wiki/Contact">Contact</a>
 	<a href="/wiki/Contribute">Contribute</a>
 	<a href="/wiki">Wiki</a>
 	<a href="/">Home</a>
