@@ -1,5 +1,10 @@
 <script lang="ts">
 	import Contributor from '$lib/Contributor.svelte';
+
+	import type { PageData } from './$types';
+	export let data: PageData;
+
+	console.log(data.jsonData.contributors[0].name);
 </script>
 
 <div id="main">
@@ -8,18 +13,13 @@
 	<h2>Contributors:</h2>
 
 	<div id="contributors">
-		<Contributor
-			name="SoundDrill"
-			profile_picture="https://avatars.githubusercontent.com/u/84176052?v=4"
-		/>
-		<Contributor
-			name="LinuxGuy312"
-			profile_picture="https://avatars.githubusercontent.com/u/101087324?v=4"
-		/>
-		<Contributor
-			name="PugzAreCute"
-			profile_picture="https://avatars.githubusercontent.com/u/62641095?v=4"
-		/>
+		{#each data.jsonData.contributors as contributor}
+			<Contributor
+				name="{contributor.name}"
+				profile_picture="{contributor.profile_picture}",
+				profile_link="{contributor.profile_link}"
+			/>
+		{/each}
 	</div>
 </div>
 

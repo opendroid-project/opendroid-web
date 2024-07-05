@@ -1,12 +1,13 @@
 <script lang="ts">
-	export let name = '';
-	export let profile_picture = '';
+	export let name;
+	export let profile_picture;
+	export let profile_link;
 </script>
 
-<div class="profile_picture_container">
+<a class="profile_picture_container" href="{profile_link}">
 	<img src={profile_picture} alt="Picture of {name}" />
 	<p>{name}</p>
-</div>
+</a>
 
 <style>
 	.profile_picture_container {
@@ -15,6 +16,7 @@
 		align-items: center;
 		justify-items: center;
 		margin: 20px;
+			text-decoration: none;
 	}
 	.profile_picture_container img {
 		width: 50px;
