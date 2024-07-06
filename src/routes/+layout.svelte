@@ -8,11 +8,17 @@
 	if (browser) {
 		minWidth = window.matchMedia('(min-width: 500px)').matches;
 	}
+	let innerWidth = 0
+	let innerHeight = 0
+	$: useSmallNav = innerWidth >= 500
+
 </script>
+
+<svelte:window bind:innerWidth bind:innerHeight />
 
 <SvelteToast />
 
-{#if minWidth}
+{#if useSmallNav}
 	<DesktopNavigation />
 {:else}
 	<HamburgerNavBar />

@@ -4,8 +4,6 @@
 	let nav_height = 0;
 
 	onMount(() => {
-		nav_height = document.getElementById('nav_actual').offsetHeight;
-
 		for (let element of document.getElementsByClassName('nav_link')) {
 			element.addEventListener('click', onClick);
 		}
@@ -30,7 +28,7 @@
 			}, 750);
 		} else {
 			let dropdown = document.getElementById('nav_actual');
-			dropdown.style.top = 'calc(var(--my-height)*-1)';
+			dropdown.style.top = '-100%';
 			dropdown.classList.add('animate_dropup');
 			window.setTimeout(() => {
 				dropdown.classList.remove('animate_dropup');
@@ -52,7 +50,7 @@
 	</button>
 </div>
 
-<div id="nav_actual" style="--my-height: {nav_height}px">
+<div id="nav_actual">
 	<a href="/" class="nav_link">Home</a>
 	<a href="/wiki" class="nav_link">Wiki</a>
 	<a href="/wiki/Contribute" class="nav_link">Contribute</a>
@@ -110,7 +108,7 @@
 		margin: 0;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		top: calc(-1 * var(--my-height));
+		top: -100%;
 	}
 
 	@keyframes rotate_hamburger {
@@ -128,7 +126,7 @@
 
 	@keyframes animate_dropdown {
 		from {
-			top: calc(var(--my-height) * -1);
+			top: -100%
 		}
 		to {
 			top: 0;
