@@ -53,7 +53,15 @@ a {
 	--text-color: ivory;
 	--mono-font: 'Noto Sans Mono';
 	--main-font: 'Montserrat';
-	--bg-color: #111;
+	--bg-color: #313638;
 	--lighter-color: #222;
 	--lightest-color: #333;
+}
+@media (prefers-color-scheme: light) {
+	:root {
+		--text-color: #313638;
+		--bg-color: ivory;
+		--lighter-color: gainsboro;
+		--toc-mobile-btn-bg: var(--lighter-color);
+	}
 }
