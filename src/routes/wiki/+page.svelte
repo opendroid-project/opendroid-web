@@ -16,7 +16,6 @@
 	async function copyCodeBlock(event: Event) {
 		if (event.target.nodeName == 'CODE') {
 			copyText(event.target.innerText);
-			toast.push('Copied!');
 		}
 	}
 
