@@ -20,21 +20,6 @@ html {
 	scrollbar-width: var(--scrollbar-width);
 }
 
-code {
-	background-color: var(--lightest-color);
-	display: inline-block;
-	padding: 10px;
-	border-radius: var(--border-radius);
-	font-family: var(--mono-font), monospace;
-	vertical-align: middle;
-	color: #f7f7f7;
-	overflow-x: auto;
-	scrollbar-width: var(--scrollbar-width);
-	scrollbar-color: var(--scrollbar-color);
-}
-pre code {
-	display: block;
-}
 ul,
 ol {
 	list-style-position: inside;
