@@ -8,7 +8,7 @@
     code{
         margin: 0;
         background-color: var(--lightest-color);
-        padding: 10px;
+        padding: 3px;
         border-radius: var(--border-radius) 2px 2px var(--border-radius);
         font-family: var(--mono-font), monospace;
         vertical-align: middle;
@@ -18,9 +18,7 @@
         scrollbar-color: var(--scrollbar-color);
     }
     div {
-        display: inline-grid;
-        grid-template-columns: auto 30px;
-				margin: 3px;
+        display: inline;
     }
 </style>
 
