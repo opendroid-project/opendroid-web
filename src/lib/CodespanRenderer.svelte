@@ -2,6 +2,7 @@
 	export let lang
 	export let text
 
+	let fixed_text=new DOMParser().parseFromString(text, "text/html").documentElement.textContent
 </script>
 
 <style>
@@ -23,6 +24,6 @@
 </style>
 
 <div class={lang}>
-<code>{text}
+<code>{fixed_text}
 </code>
 </div>
