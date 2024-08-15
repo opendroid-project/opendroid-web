@@ -1,8 +1,7 @@
 <script>
 	export let lang
 	export let text
-
-	let fixed_text=new DOMParser().parseFromString(text, "text/html").documentElement.textContent
+	let fixed_text=text.replace(/&quot;/g,'"');
 </script>
 
 <style>
